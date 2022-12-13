@@ -2,9 +2,11 @@ body {
   position: absolute;
   width: 550px;
   height: 868px;
-  left: 65px;
   top: 53px;
 
   background: #23252c;
-  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
 }

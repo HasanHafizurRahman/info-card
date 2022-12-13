@@ -1,8 +1,11 @@
 .body {
-  margin-top: 70px;
-  margin-left: 137px;
+  margin-top: 0px;
+  margin-left: 116px;
+  width: 280px;
   background-color: #1a1b21;
   padding-left: 37px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .body > h2 {
   font-family: "Inter";

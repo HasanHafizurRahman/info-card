@@ -1,19 +1,29 @@
 .infoBody {
   text-align: center;
+  /* padding-top: 10px; */
+
+  /* background-color: #1a1b21; */
 }
 .image > img {
   width: 317px;
   height: 317px;
+  /* padding-bottom: -30px; */
   border-radius: 10px 10px 0px 0px;
+}
+.titile-button {
+  background-color: #1a1b21;
+  width: 317px;
+  margin-left: 116px;
 }
 .Title {
   font-family: "Inter";
+  margin-top: -5px;
+  padding-top: 25px;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 30px;
   text-align: center;
-
   color: #ffffff;
 }
 .Title_two {
@@ -34,30 +44,46 @@
   color: #f5f5f5;
 }
 .buttons {
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  /* gap: 8px; */
-  /* position: absolute; */
-}
-.email {
+  color: #fff;
   display: flex;
-  flex-direction: row;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  gap: 10px;
   justify-content: center;
-  align-items: center;
-  padding: 9px 13px 9px 11px;
-  gap: 8px;
-  border: 1px solid #d1d5db;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 6px;
-  position: absolute;
-  width: 115px;
-  height: 34px;
-  margin-top: 16px;
+  line-height: 16px;
+  margin-top: 12px;
+  padding: 0 35px;
 }
-.email > img {
-  width: 16px;
+.buttons {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  gap: 10px;
+  justify-content: center;
+  line-height: 16px;
+  margin-top: 12px;
+  padding: 0 35px;
+}
+
+.email {
+  align-items: center;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 34px;
+  justify-content: center;
+  width: 115px;
+  background: #fff;
 }
 .email > h3 {
   font-family: "Inter";
@@ -69,29 +95,20 @@
 }
 
 .linkedin {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  background: #5093e2;
+  color: #fff;
   align-items: center;
-  padding: 9px 13px 9px 11px;
-  gap: 8px;
-  color: #ffffff;
-  position: absolute;
-  width: 115px;
-  height: 34px;
-  left: 283px;
-  top: 468px;
-
-  background: #68e250;
-  /* shadow/sm */
-
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border: none;
   border-radius: 6px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 34px;
+  justify-content: center;
+  width: 115px;
 }
-.linkedin > img {
-  width: 16px;
-  color: wheat;
-}
+
 .linkedin > h3 {
   font-family: "Inter";
   font-style: normal;
